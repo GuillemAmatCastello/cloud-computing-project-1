@@ -23,7 +23,7 @@ def inches_from(centimeter):
     """Convert Centimeter to Inches."""
     try:
         inches = float(centimeter) / 2.54
-        inches = round(centimeter, 3)  # Round to three decimal places
+        inches = round(inches, 3)  # Round to three decimal places
         return str(inches)
     except ValueError:
         return "invalid input"
