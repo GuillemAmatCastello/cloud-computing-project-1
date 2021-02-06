@@ -12,7 +12,7 @@ def index():
         inches = ""
     return (
         """<form action="" method="get">
-                centimeters: <input type="text" name="centimeter">
+                Centimeters: <input type="text" name="centimeter">
                 <input type="submit" value="Convert to Inches">
             </form>"""
         + "Inches: "
